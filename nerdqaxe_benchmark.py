@@ -79,21 +79,21 @@ frequency_step = 10 if args.fine else 20
 # Benchmark timing and limits
 benchmark_time = 1200
 sample_interval = 15
-max_temp = 68
+max_temp = 60
 max_allowed_voltage = 1200
-max_allowed_frequency = 750
-max_vr_temp = 85
-min_input_voltage = 11600
-max_input_voltage = 12000
-max_power = 100
+max_allowed_frequency = 800
+max_vr_temp = 65
+min_input_voltage = 11700
+max_input_voltage = 12300
+max_power = 150
 
 # Hardware info (filled from device)
 small_core_count = None
 asic_count = None
 
 # Hard bounds for grid
-min_allowed_voltage = 1120
-min_allowed_frequency = 500
+min_allowed_voltage = 1150
+min_allowed_frequency = 600
 
 # =============================================================
 #                        VALIDATION
