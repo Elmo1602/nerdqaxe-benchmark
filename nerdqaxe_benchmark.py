@@ -19,7 +19,7 @@ RESET = "\033[0m"
 # =============================================================
 def parse_arguments():
     parser = argparse.ArgumentParser(description='Bitaxe Hashrate Benchmark Tool')
-    parser.add_argument('nerdqaxe_ip', nargs='?', help='IP address of the Bitaxe (e.g., 192.168.2.26)')
+    parser.add_argument('nerdqaxe_ip', nargs='?', help='IP address of the Bitaxe (e.g., 192.168.178.160)')
     parser.add_argument('-v', '--voltage', type=int, default=1150,
                         help='Initial voltage in mV (default: 1150)')
     parser.add_argument('-f', '--frequency', type=int, default=600,
