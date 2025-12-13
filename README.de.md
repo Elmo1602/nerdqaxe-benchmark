@@ -37,7 +37,7 @@ Verwendung auf eigenes Risiko – die Autor(en) übernehmen keine Verantwortung 
 
 ### 📦 Standardinstallation
 ```bash
-git clone https://github.com/n4rr0w-87/nerdqaxe-benchmark.git
+git clone https://github.com/Elmo1602/nerdqaxe-benchmark.git
 cd nerdqaxe-benchmark
 python -m venv venv
 source venv/bin/activate  # oder venv\Scripts\activate unter Windows
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 ### 📦 Standard-Installation
 
 ```bash
-git clone https://github.com/n4rr0w-87/nerdqaxe-benchmark.git
+git clone https://github.com/Elmo1602/nerdqaxe-benchmark.git
 cd nerdqaxe-benchmark
 python -m venv venv
 source venv/bin/activate  # unter Windows: venv\Scripts\activate
